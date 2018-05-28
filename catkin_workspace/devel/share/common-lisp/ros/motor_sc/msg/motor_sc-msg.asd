@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "motor_sc-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "LED_controll" :depends-on ("_package_LED_controll"))
+    (:file "_package_LED_controll" :depends-on ("_package"))
+    (:file "g_sens" :depends-on ("_package_g_sens"))
+    (:file "_package_g_sens" :depends-on ("_package"))
+    (:file "mcnt_msg" :depends-on ("_package_mcnt_msg"))
+    (:file "_package_mcnt_msg" :depends-on ("_package"))
+    (:file "minf_msg" :depends-on ("_package_minf_msg"))
+    (:file "_package_minf_msg" :depends-on ("_package"))
+    (:file "motors_drive" :depends-on ("_package_motors_drive"))
+    (:file "_package_motors_drive" :depends-on ("_package"))
+    (:file "motors_feedback" :depends-on ("_package_motors_feedback"))
+    (:file "_package_motors_feedback" :depends-on ("_package"))
+    (:file "sens9ax" :depends-on ("_package_sens9ax"))
+    (:file "_package_sens9ax" :depends-on ("_package"))
+  ))

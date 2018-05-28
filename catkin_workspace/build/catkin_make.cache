@@ -1,0 +1,2 @@
+motor_sc
+-DCATKIN_DEVEL_PREFIX=/home/rctvrc/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/rctvrc/catkin_workspace/install -G Unix Makefiles

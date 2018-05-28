@@ -1,0 +1,8 @@
+prefix=/home/rctvrc/catkin_workspace/install
+
+Name: motor_sc
+Description: Description of motor_sc
+Version: 0.0.0
+Cflags: -I/home/rctvrc/catkin_workspace/install/include
+Libs: -L/home/rctvrc/catkin_workspace/install/lib 
+Requires: 

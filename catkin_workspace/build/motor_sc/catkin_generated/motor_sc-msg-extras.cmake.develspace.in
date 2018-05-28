@@ -1,0 +1,2 @@
+set(motor_sc_MESSAGE_FILES "/home/rctvrc/catkin_workspace/src/motor_sc/msg/mcnt_msg.msg;/home/rctvrc/catkin_workspace/src/motor_sc/msg/minf_msg.msg;/home/rctvrc/catkin_workspace/src/motor_sc/msg/motors_drive.msg;/home/rctvrc/catkin_workspace/src/motor_sc/msg/motors_feedback.msg;/home/rctvrc/catkin_workspace/src/motor_sc/msg/LED_controll.msg;/home/rctvrc/catkin_workspace/src/motor_sc/msg/sens9ax.msg;/home/rctvrc/catkin_workspace/src/motor_sc/msg/g_sens.msg")
+set(motor_sc_SERVICE_FILES "")

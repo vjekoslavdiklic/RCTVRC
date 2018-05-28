@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Export-Package: motor_sc;version="0.0.0";uses:="org.jboss.netty.buffer
+ ,org.ros.internal.message"
+Bundle-Version: 0.0.0
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: motor_sc
+Bnd-LastModified: 1527113091424
+Created-By: 1.7.0_60 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.ros.rosjava_messages.motor_sc
+Import-Package: org.jboss.netty.buffer;version="[3.5,4)",org.ros.inter
+ nal.message
+
